@@ -1,0 +1,153 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    height: 100%;
+    position: relative;
+}
+
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+h2 {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+}
+
+
+#india {
+    position: fixed;
+    height: 3.7vw;
+    text-align: center;
+    color: rgb(14, 183, 136);
+    font-size: 2.0vw;
+    z-index: 2;
+    right: 0px;
+    left: 0px;
+    color: white;
+}
+
+
+.button{
+  box-shadow: 3px 6px 15px 1px black;
+}
+
+
+#map {
+    bottom: 0px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+#options-box {
+    background-color: rgba(77, 82, 48, 0.81);
+    border: 1px solid #999;
+    border-radius: 3px;
+    height: 95%;
+    line-height: 35px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 20%;
+    position: absolute;
+    box-shadow: 6px 6px 20px 1px darkslategrey;
+    z-index: 2;
+    overflow-y: overlay;
+}
+
+
+#li {
+    z-index: 3;
+    color: beige;
+    cursor: pointer;
+    font-size: 2.0vw;
+    border-bottom: 1px solid black;
+}
+
+
+#li:active {
+    z-index: 3;
+}
+
+.errorMessage{
+  z-index: 2;
+}
+#footer {
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    height: 5%;
+    width: 100%;
+    background-color: darksalmon;
+    font-size: x-large;
+    border-radius: 0;
+    position: fixed;
+    text-align: center;
+    z-index: 2;
+    color: white;
+}
+
+
+.fs {
+    background-color: white;
+    height: 2vw;
+    width: 10vw;
+}
+
+
+.searchhead {
+    color: darksalmon;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.6vw;
+}
+
+
+#search-box {
+    align-self: center;
+    font-size: 1.0vw;
+    z-index: 2;
+}
+
+
+.list {
+    z-index: 2;
+}
+
+
+#list-box{
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*.open-nav {
+    font-size: 2.0vw;
+    cursor: pointer;
+    color: rgb(14, 183, 136);
+    margin-left: 10%;
+    margin-left: 3vw;
+    margin-right: 1.5vw;
+    border-left-width: 1.5vw;
+    margin-left: 3.0vw;
+    z-index: 2;
+    align-self: center;
+}
+.open-nav:hover {
+    cursor: pointer;
+}*/

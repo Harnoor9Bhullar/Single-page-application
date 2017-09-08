@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- This tells the browser how to read the document. -->
+      <meta charset="utf-8">
+      <!-- Tells the browser what the title of this page should be. -->
+      <title>Neighborhood map project</title>
+      <!-- Load the page styles. -->
+      <link href="css/style.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <script src="https://use.fontawesome.com/db87e156ab.js"></script>
+   </head>
+   <body>
+      <div class= "container" >
+         <div id="map"></div>
+           <div id="options-box">
+             <h2><i class="fa fa-chevron-circle-down" aria-hidden="true" ></i>India</h2>
+            <div class="searchhead">Search cool places listed!</div>
+            <input id="search-box" placeholder="Search…" type="search" data-bind="textInput: search, valueUpdate: 'afterkeydown'" autocomplete="on">
+            <ul id="list-box" data-bind="foreach: userSearch">
+               <li id="li" ><span data-bind="text: title, click: $root.itemClick"></span></li>
+            </ul>
+            <img class="fs" src="img/fs.png" alt="Attribution to foursquare">
+            <button class="button" type="reset" data-bind="click: $root.reset">Reset</button>
+         </div>
+      </div>
+      <!--<div class='errorMessage'></div>-->
+      <footer id='footer' class="row">
+         <div class="navbar navbar-default col-md-12">
+            <div class="navbar-text">
+               Neighborhood map project, Udacity.
+            </div>
+         </div>
+      </footer>
+      <script src="js/knockout.js"></script>
+      <script src="js/app.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+     <script async defer
+        src=
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyALB0vcM4kj0-i8djS68U5FA-6t-dR6Cys&v=3&callback=initMap" onerror="mapError()">
+      </script>
+   </body>
+</html>

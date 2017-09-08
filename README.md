@@ -30,3 +30,6 @@
 #Libraries used:
 
 1. knockout.js is used
+
+#Open the project here:
+https://Harnoor9Bhullar.github.io/Single-page-application
